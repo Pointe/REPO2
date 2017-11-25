@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin-video-AndyWizard.16" name="AndyWizard" version="2.0.5" provider-name="SimpleKodi">
+<addon id="plugin-video-AndyWizard.16.X" name="AndyWizard" version="2.0.6" provider-name="AndyKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,14 +8,48 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">AndyWizard</summary>
+    <summary lang="en">AndyWizard.16.X</summary>
     <description lang="en">Best Kodi Tutorials</description>
+	<screenshot>resources/screenshots/FTV.png</screenshot>
+	<screenshot>resources/screenshots/AEON.png</screenshot>
 	<website></website>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.ANDY.Wizard.17" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17" version="1.0.2" provider-name="Andy">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.43" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio executable image</provides>
+  </extension>
+
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+  </extension>
+
+  <extension point="kodi.context.item" library="capture.py">
+      <item>
+        <label>30000</label>
+        <visible>true</visible>
+      </item>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ANDY.Wizard.17.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17" version="1.0.3" provider-name="Andy">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -23,8 +57,11 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Andy-Wizard-17</summary>
+    <summary lang="en">Andy-Wizard-17.X</summary>
     <description lang="en">Easy Install mit Andy / Andy-Wizard kodi 17 / </description>
+	<screenshot>resources/screenshots/1.png</screenshot>
+	<screenshot>resources/screenshots/2.png</screenshot>
+	<screenshot>resources/screenshots/3.png</screenshot>
     <platform>all</platform>
   </extension>
 </addon>
