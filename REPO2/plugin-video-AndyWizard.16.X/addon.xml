@@ -1,5 +1,5 @@
 <?xml version="1.0.2" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin-video-AndyWizard.16.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 16.[COLOR]X[/COLOR]" version="2.0.6" provider-name="AndyKodi">
+<addon id="plugin-video-AndyWizard.16.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 16.[COLOR]X[/COLOR]" version="2.0.7" provider-name="AndyKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
