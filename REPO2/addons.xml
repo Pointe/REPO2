@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin-video-AndyWizard.16.X" name="AndyWizard" version="2.0.6" provider-name="AndyKodi">
+<addon id="plugin-video-AndyWizard.16.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 16.[COLOR]X[/COLOR]" version="2.0.6" provider-name="AndyKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -10,8 +10,13 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">AndyWizard.16.X</summary>
     <description lang="en">Best Kodi Tutorials</description>
-	<screenshot>resources/screenshots/FTV.png</screenshot>
-	<screenshot>resources/screenshots/AEON.png</screenshot>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+	<screenshot>resources/screenshot/FTV.png</screenshot>
+	<screenshot>resources/screenshot/AEON.png</screenshot>
+	</assets>
+
 	<website></website>
     <platform>all</platform>
   </extension>
@@ -49,7 +54,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ANDY.Wizard.17.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17" version="1.0.3" provider-name="Andy">
+<addon id="plugin.video.ANDY.Wizard.17.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17.[COLOR]X[/COLOR]" version="1.0.3" provider-name="Andy">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -59,10 +64,17 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Andy-Wizard-17.X</summary>
     <description lang="en">Easy Install mit Andy / Andy-Wizard kodi 17 / </description>
-	<screenshot>resources/screenshots/1.png</screenshot>
-	<screenshot>resources/screenshots/2.png</screenshot>
-	<screenshot>resources/screenshots/3.png</screenshot>
+
     <platform>all</platform>
+
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/screenshot/1.png</screenshot>
+		<screenshot>resources/screenshot/2.png</screenshot>
+		<screenshot>resources/screenshot/3.png</screenshot>
+
+	</assets>
   </extension>
 </addon>
 
