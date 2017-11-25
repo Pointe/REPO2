@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ANDY.Wizard.17" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17" version="1.0.0" provider-name="Andy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Andy-Wizard-17</summary>
+    <description lang="en">Easy Install mit Andy / Andy-Wizard kodi 17 / </description>
+    <platform>all</platform>
+  </extension>
+</addon>

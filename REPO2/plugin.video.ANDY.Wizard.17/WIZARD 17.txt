@@ -1,0 +1,20 @@
+name="Andy-17.5 Aeon Sky"
+url="https://www.dropbox.com/s/qlvm4p8s1o8441s/Kodi.zip?dl=1"
+img="https://archive.org/download/pointecker_outlook_AEON/Pirat.jpg"
+fanart="https://www.sky.at/static/img/sky_14-08_logo-og-facebook_1800x1013.jpg"
+description="Andy-Builds 17.5"
+
+name="Andy-17.5 TEST"
+url="https://www.dropbox.com/s/2zsawpzn6itoivk/Sky.zip?dl=0"
+img="https://archive.org/download/pointecker_outlook_AEON/Pirat.jpg"
+fanart="https://www.sky.at/static/img/sky_14-08_logo-og-facebook_1800x1013.jpg"
+description="Andy-Builds 17.5"
+
+
+
+
+
+
+
+
+
