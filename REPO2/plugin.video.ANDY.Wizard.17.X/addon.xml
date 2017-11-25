@@ -13,8 +13,8 @@
     <platform>all</platform>
 	
 	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
 		<screenshot>resources/screenshot/1.png</screenshot>
 		<screenshot>resources/screenshot/2.png</screenshot>
 		<screenshot>resources/screenshot/3.png</screenshot>

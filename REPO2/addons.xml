@@ -11,8 +11,8 @@
     <summary lang="en">AndyWizard.16.X</summary>
     <description lang="en">Best Kodi Tutorials</description>
 	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
 	<screenshot>resources/screenshot/FTV.png</screenshot>
 	<screenshot>resources/screenshot/AEON.png</screenshot>
 	</assets>
@@ -68,8 +68,8 @@
     <platform>all</platform>
 
 	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
 		<screenshot>resources/screenshot/1.png</screenshot>
 		<screenshot>resources/screenshot/2.png</screenshot>
 		<screenshot>resources/screenshot/3.png</screenshot>
