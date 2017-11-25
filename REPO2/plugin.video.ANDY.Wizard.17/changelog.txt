@@ -1,5 +1,2 @@
-
-
-v1.0.6
-Fixed openkd wizard 
-
+v1.0
+First Release
