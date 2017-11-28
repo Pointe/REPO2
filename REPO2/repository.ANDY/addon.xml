@@ -11,6 +11,10 @@
 		<description lang="en">This is the official Repository from Andy. Enjoy!</description>
 		<description lang="de">Das ist das offizielle Repository von Andy.  Viel Spaß!</description>
 		<disclaimer></disclaimer>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
 		<platform>all</platform>
 	</extension>
 </addon>
