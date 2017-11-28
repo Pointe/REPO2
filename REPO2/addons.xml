@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin-video-AndyWizard.16.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 16.[COLOR]X[/COLOR]" version="2.0.8" provider-name="AndyKodi">
+<addon id="plugin-video-AndyWizard.16.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 16.[COLOR]X[/COLOR]" version="2.0.9" provider-name="AndyKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -12,7 +12,7 @@
     <description lang="en">Best Kodi Tutorials</description>
 	<assets>
 		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
+		<fanart>fanart.gif</fanart>
 	<screenshot>resources/screenshot/FTV.png</screenshot>
 	<screenshot>resources/screenshot/AEON.png</screenshot>
 	</assets>
@@ -22,7 +22,7 @@
   </extension>
 </addon>
 
-<addon id="plugin-video-AndyWizard.17.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17.[COLOR]X[/COLOR]" version="1.0.0" provider-name="AndyKodi">
+<addon id="plugin-video-AndyWizard.17.X" name="[COLOR steelblue]Andy[/COLOR]KD [COLOR steelblue]WIZARD[/COLOR] Kodi 17.[COLOR]X[/COLOR]" version="1.0.1" provider-name="AndyKodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -34,7 +34,7 @@
     <description lang="en">Best Kodi Tutorials</description>
 	<assets>
 		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
+		<fanart>fanart.gif</fanart>
 	<screenshot>resources/screenshot/1.png</screenshot>
 	<screenshot>resources/screenshot/2.png</screenshot>
 	<screenshot>resources/screenshot/3.png</screenshot>
@@ -175,7 +175,7 @@ https://www.tata.to</description>
 	</extension>
 </addon>
 
-<addon id="repository.ANDY" name="[COLOR blue]A[/COLOR][COLOR darkorange]N[COLOR][COLOR red]DY[/COLOR]" version="6.0.3" provider-name="ANDY">
+<addon id="repository.ANDY" name="[COLOR blue]A[/COLOR][COLOR darkorange]N[COLOR][COLOR red]DY[/COLOR]" version="6.0.4" provider-name="ANDY">
 	<extension point="xbmc.addon.repository" name="Andy">
 		<info compressed="true">https://github.com/Pointe/REPO2/raw/master/REPO2/addons.xml</info>
 		<checksum>https://github.com/Pointe/REPO2/blob/master/REPO2/addons.xml.md5</checksum>
