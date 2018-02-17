@@ -141,6 +141,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.bloodmooniptv"
+       name="BLOODMOON-IPTV"
+       version="1.0"
+       provider-name="BLOODMOON-IPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BLOODMOON-IPTV</summary>
+    <language>en</language>
+    <description lang="en">BLOODMOON-IPTV addon To be used with most playlist. edited by @rubberduck</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.incursion" version="0.1.13" name="Incursion" provider-name="Incursion">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
