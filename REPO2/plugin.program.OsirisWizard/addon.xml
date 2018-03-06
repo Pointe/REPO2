@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.OsirisWizard" name="Osiris Wizard" version="0.0.4" provider-name="Rubberduck">
+<addon id="plugin.program.OsirisWizard" name="Osiris Wizard" version="0.0.5" provider-name="Rubberduck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,7 +9,12 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Osiris Wizard</summary>
-    <description lang="en">Osiris Wizard.</description>
+    <description lang="en">v. 0.0.5
++ Benachrichtigung hinzugefügt
++ Wizard auf Deutsch gestellt
++ Speedtest hinzugefügt
++ APP und ROM Downloader hinzugefügt
++ Wizard update benachrichtigung</description>
     <platform>all</platform>
   </extension>
 </addon>
