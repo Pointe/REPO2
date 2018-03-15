@@ -1,0 +1,112 @@
+[B]1.0.6.5[/B]
+- add szene-streamz
+- Update Manger hinzugefügt (navigator.py)
+
+[B]1.0.6.5~nightly3[/B]
+- Update movie2k-ac auf movie2k-sh
+- movie2z entfernt (Seite wurde geschlossen)
+- Upadate Foxx Suche
+- Update player.py  für foxx
+- Fix Personen Suche,Fehlermeldung anzeigen wenn keine Eintrag verfügbar
+
+[B]1.0.6.4[/B]
+- New Fix Foxx
+
+[B]1.0.6.3[/B]
+- Bug Fix, Downgrade auf Stand 1.0.6.1 (Update 1.0.6.2 Fehlerhaft)
+
+[B]1.0.6.2[/B]
+- Fix Foxx
+
+[B]1.0.6.1[/B]
+- Fix Streamdream TV-Shows
+
+[B]1.0.6[/B]
+- add streamdream Update
+- Update Personen Suche (Filme)
+- Add Option Automatisch Fortsetzen
+- Add Trakt Fortestzungspukt (Bookmarks Function), jedoch zur Zeit in Lastship deaktiviert
+- Add Trakt Angefangene/nicht beendete Episoden Kategorie
+- Add Funktion nur Premium Links (Bezahllinks) anzeigen
+
+[B]1.0.5[/B]
+- cinenator entfent
+- Update hdfilme
+
+[B]1.0.4[/B]
+- Trakt Bibliothek automatisch Synchronisieren
+- Fix Umlaute Suche	
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+- Update jsunpack.py
+- movies.py
+- tvshows.py
+- libtools optimiert (Fehler Behebung)
+- Update cache.py und navigator.py
+- tata wieder hinzugefügt (nur Filme)
+- Update hdfilme
+- Update hdstreams
+
+[B]1.0.4~nightly10[/B]
+- tata wieder hinzugefügt (nur Filme)
+
+[B]1.0.4~nightly9[/B]
+- Fix Umlaute Suche (movies.py und tvshows.py)
+
+[B]1.0.4~nightly8[/B]
+ - cache.py  (Zeile 169 cache clear search) + Zeile 240 cache_clear_search()
+- Navigator.py Zeile 256 & 257 Umbenennung von clearemetacache auf clearcachemeta und clearcacheall
+- Navigator.py: in allen def clear cache Funktionen den Eintrag  from resources.lib.modules import cache entfernt da schon in Zeile 29 importiert wird
+
+[B]1.0.4~nightly7[/B]
+- Update jsunpack
+
+[B]1.0.4~nightly6[/B]
+- Gesamten Speicher löschen und Metaspeicher löschen hinzugefügt
+	- movies.py
+	- navigator.py
+
+[B]1.0.4~nightly5[/B]
+- libtools optimiert (Fehler Behebung)
+
+[B]1.0.4~nightly4[/B]
+- movies.py (Zeile 117 und 118, imdblist_link)
+
+[B]1.0.4~nightly3[/B]
+- Add Trakt Collections AutoSync
+	- control.py
+	- libtools.py
+- Update jsunpack.py
+- movies.py
+- tvshows.py
+
+[B]1.0.3.1[/B]
+- Bugfix whatsnew
+
+[B]1.0.3[/B]
+- Add Option Flashx Captcha Pairing Abfrage zu deaktivieren
+- Update navigator.py (News und Updates aktiviert und base64 link eingefügt)
+
+[B]1.0.2[/B]
+- Fix login Problem Serienstream
+- client.py optimiert
+- Update library.py
+
+[B]1.0.1[/B]
+- cfscraper Update
+- hdstreams update
+- video4k entfernt (Weiterleitung auf cine.to)
+
+[B]1.0.0[/B]
+- Aufteilung von plugin.video.lastship in 2 Module:
+  script.module.lastship
+  plugin.video.lasthip
+- settings Anpassung an die neue Aufteilung
+- serienstream.to entfernt (Loginproblem konnte bisher nicht gelöst werden)
+- Fix Suche Personen/Darsteller
+- Fix IMDb Listen
+- URLResolver Einstellungen unter Werkzeug zu finden
+- Such-Ergebinsse werden gespeichert, können auch gelöscht werden
+- nicht ausgestrahlte Episoden werden Farblich (Rot) angezeigt
+
+
+
