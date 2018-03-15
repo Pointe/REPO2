@@ -1,3 +1,9 @@
+v0.1.7a
+-Mod   tweaked code to prevent 2nd startup
+-Fixed bug where started with second char in notifications
+-Fixed bug when only 1 build is avaliable and shows kodi version and save data twice
+-Fixed bug in backup build
+
 v0.1.7
 -Added First Run Save Data Window
 -Added New Window for Viewing Log Files
