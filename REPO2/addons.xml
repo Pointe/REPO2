@@ -361,7 +361,7 @@ https://www.facebook.com/groups/hskde/</description>
     </extension>
 </addon>
 
-<addon id="plugin.program.OsirisWizard" name="Osiris Wizard" version="0.0.6" provider-name="Rubberduck">
+<addon id="plugin.program.OsirisWizard" name="Osiris Wizard" version="0.0.7" provider-name="Rubberduck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -371,7 +371,11 @@ https://www.facebook.com/groups/hskde/</description>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Osiris Wizard</summary>
-    <description lang="en">v. 0.0.5
+    <description lang="en">
+	v. 0.0.7
++ Repo instalation hinzugefügt
+
+	v. 0.0.5
 + Benachrichtigung hinzugefügt
 + Wizard auf Deutsch gestellt
 + Speedtest hinzugefügt
@@ -1411,6 +1415,22 @@ xStream 3.4.7
         <fanart>fanart.jpg</fanart>
     </assets>
 	</extension>
+</addon>
+
+<addon id="repository.netflix" name="Netflix Addon Repository" version="1.0.1" provider-name="libdev + jojo + asciidisco">
+        <extension point="xbmc.addon.repository" name="Netflix Addon Repository">
+                <info compressed="false">https://johtru.com/repo/repo.php</info>
+                <checksum>https://johtru.com/repo/repo.php?md5=true</checksum>
+                <datadir zip="true">https://johtru.com/repo/repo_files</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>The Repository for the Kodi Netflix Addon</summary>
+                <summary lang="de">Das Repository für das Kodi Netflix Addon</summary>
+                <description>Provides the Netflix Addons fpr kodi.</description>
+                <description lang="de">Stellt das Kodi Netflix Addon bereit</description>
+                <disclaimer>Some parts of this Repository may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+                <platform>all</platform>
+        </extension>
 </addon>
 
 <addon id="repository.openkd.addons" name="[COLOR blue]Open[/COLOR][COLOR darkorange]KD[COLOR][COLOR red]Repository[/COLOR]" version="1.0.5" provider-name="[COLOR blue]OpenKD Team[/COLOR]">
