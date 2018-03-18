@@ -486,7 +486,7 @@ https://www.facebook.com/groups/hskde/</description>
 
 <addon id="plugin.video.bloodmooniptv"
        name="BLOODMOON-IPTV"
-       version="1.3"
+       version="1.4"
        provider-name="BLOODMOON-IPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
