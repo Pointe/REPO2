@@ -1524,7 +1524,7 @@ https://www.facebook.com/OpenKD</description>
 	</extension>
 </addon>
 
-<addon id="repository.ultimate" name="[B][COLOR black]Ultimate[/COLOR] [COLOR red]German[/COLOR] [COLOR yellow]Repo[/COLOR][/B]" version="1.0.1" provider-name="cerberus">
+<addon id="repository.ultimate" name="[B][COLOR black]Ultimate[/COLOR] [COLOR red]German[/COLOR] [COLOR yellow]Repo[/COLOR][/B]" version="1.0.3" provider-name="cerberus">
 	<extension point="xbmc.addon.repository" name="cerberus">
 			<dir>
 			<info compressed="false">http://repo.kodineuerleben.eu/addons.xml</info>
