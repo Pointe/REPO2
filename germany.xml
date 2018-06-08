@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V2.1.5 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
-  <channel id="Sky Atlantic HD">
-    <display-name lang="de">Sky Atlantic HD</display-name>
-    <url>http://www.sky.de</url>
+<channel id="10 Days">
+    <display-name lang="de">10 Days In A Madhouse (2015) DE</display-name>
+    <url></url>
   </channel>
+
+
+
+  
   <channel id="Sky Atlantic+1 HD">
     <display-name lang="de">Sky Atlantic+1 HD</display-name>
     <url>http://www.sky.de</url>
@@ -643,6 +647,29 @@
     <icon src="http://tvheute.at/images/channels/SF2-1899770005-01.png" />
     <url>http://www.tvheute.at</url>
   </channel>
+  
+  <programme start="20180608005500 +0200" stop="20180608014000 +0200" channel="10 Days In A Madhouse (2015) DE">
+    <title lang="de">10 Days In A Madhouse (2015) DE</title>
+    <title lang="xx">All In</title>
+    <sub-title lang="de">Hoch gepokert</sub-title>
+    <desc lang="de">Test den scheiss mal.(n)</desc>
+    <credits>
+      <director>Andreas</director>
+      <actor>Pointecker</actor>
+      <actor>Lucy Liu</actor>
+      <actor>Aidan Quinn</actor>
+      <writer>Robert Doherty</writer>
+    </credits>
+    <date>2015</date>
+    <category lang="de">Dramaserie</category>
+    <category lang="de">Crimeserie</category>
+    <icon src="http://skyonline.sky.de/st/bin/EPGEvent/web/event_4027433.png" />
+    <country lang="de">USA</country>
+    <episode-num system="onscreen">S4E19</episode-num>
+  </programme>
+  
+  
+  
   <programme start="20180608005500 +0200" stop="20180608014000 +0200" channel="Sky Atlantic HD">
     <title lang="de">Elementary</title>
     <title lang="xx">All In</title>
