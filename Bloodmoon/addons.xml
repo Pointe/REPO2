@@ -44,6 +44,32 @@
 </addon>
 
 <addon id="repository.Bloodmoon" name="[COLOR red]BLOODMOON[/COLOR]- Repo" version="1.0.0" provider-name="Rubberduck">
+
+<requires>
+
+		<import addon="repository.Osiris" version="1.0.0" />
+	</requires>
+
+	<extension point="xbmc.addon.repository" name="Rubberduck">
+		<info compressed="true">https://github.com/Pointe/REPO2/blob/master/Bloodmoon/addons.xml</info>
+		<checksum>https://github.com/Pointe/REPO2/blob/master/Bloodmoon/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Pointe/REPO2/blob/master/Bloodmoon</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Repository from Rubberduck</summary>
+		<summary lang="de">Offizielles Repository von Rubberduck</summary>
+		<description lang="en">This is the official Repository from Rubberduck. Enjoy!</description>
+		<description lang="de">Das ist das offizielle Repository von Rubberduck.  Viel Spaß!</description>
+		<disclaimer></disclaimer>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>splash.png</fanart>
+        </assets>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Osiris" name="[COLOR skyblue]OSIRIS[/COLOR]- Repo" version="1.0.0" provider-name="Rubberduck">
 	<extension point="xbmc.addon.repository" name="Rubberduck">
 		<info compressed="true">https://github.com/Pointe/REPO2/raw/master/REPO2/addons.xml</info>
 		<checksum>https://github.com/Pointe/REPO2/blob/master/REPO2/addons.xml.md5</checksum>
@@ -63,9 +89,10 @@
 	</extension>
 </addon>
 
-<addon id="script.BloodmoonVIP" name="BloodmoonVIP Editor" version="1.0.2" provider-name="xtream">
+<addon id="script.BloodmoonVIP" name="BloodmoonVIP Editor" version="1.0.3" provider-name="Bloodmoon">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0" />
+		<import addon="pvr.BloodmoonIPTV" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py" />
 	<extension point="xbmc.addon.metadata">

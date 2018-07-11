@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.BloodmoonVIP" name="BloodmoonVIP Editor" version="1.0.2" provider-name="xtream">
+<addon id="script.BloodmoonVIP" name="BloodmoonVIP Editor" version="1.0.3" provider-name="Bloodmoon">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0" />
+		<import addon="pvr.BloodmoonIPTV" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py" />
 	<extension point="xbmc.addon.metadata">
