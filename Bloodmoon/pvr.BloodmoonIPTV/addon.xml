@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="pvr.BloodmoonIPTV"
+  version="1.0.0"
+  name="PVR IPTV Bloodmoon"
+  provider-name="OSIRIS">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="5.2.1"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"/>
+    <extension point="xbmc.addon.metadata">
+  
+    <summary lang="de_DE">Kodi PVR Addon für IPTV </summary>
+
+  
+  
+    <description lang="de_DE">IPTV Bloodmoon unterstützt m3u Wiedergabelisten, Streaming von Live TV für Multicast/Unicast Quellen, Radiosender und EPG.</description>
+   
+    <platform>windows</platform>
+  </extension>
+</addon>

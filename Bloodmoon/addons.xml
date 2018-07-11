@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.bloodmooniptv"
+       name="BLOODMOON-IPTV"
+       version="1.4"
+       provider-name="BLOODMOON-IPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BLOODMOON-IPTV</summary>
+    <language>en</language>
+    <description lang="en">BLOODMOON-IPTV addon To be used with most playlist. edited by @rubberduck</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.BloodmoonIPTV"
+  version="1.0.0"
+  name="PVR IPTV Bloodmoon"
+  provider-name="OSIRIS">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="5.2.1"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"/>
+    <extension point="xbmc.addon.metadata">
+
+    <summary lang="de_DE">Kodi PVR Addon für IPTV </summary>
+
+
+
+    <description lang="de_DE">IPTV Bloodmoon unterstützt m3u Wiedergabelisten, Streaming von Live TV für Multicast/Unicast Quellen, Radiosender und EPG.</description>
+
+    <platform>windows</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Bloodmoon" name="[COLOR red]BLOODMOON[/COLOR]- Repo" version="1.0.0" provider-name="Rubberduck">
+	<extension point="xbmc.addon.repository" name="Rubberduck">
+		<info compressed="true">https://github.com/Pointe/REPO2/raw/master/REPO2/addons.xml</info>
+		<checksum>https://github.com/Pointe/REPO2/blob/master/REPO2/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Pointe/REPO2/raw/master/REPO2</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Repository from Rubberduck</summary>
+		<summary lang="de">Offizielles Repository von Rubberduck</summary>
+		<description lang="en">This is the official Repository from Rubberduck. Enjoy!</description>
+		<description lang="de">Das ist das offizielle Repository von Rubberduck.  Viel Spaß!</description>
+		<disclaimer></disclaimer>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>splash.png</fanart>
+        </assets>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.BloodmoonVIP" name="BloodmoonVIP Editor" version="1.0.2" provider-name="xtream">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xtream Editor</summary>
+		<summary lang="de">Xtream Editor</summary>
+		<description lang="en">Set M3U and EPG Link from the Xtream Editor easy into the PVR IPTV Simple Client</description>
+		<description lang="de">M3U und EPG Link vom Xtream Editor einfach in den PVR IPTV Simple Client einfügen</description>
+		<language></language>
+        <platform>all</platform>
+        <license></license>
+        <forum></forum>
+        <website>https://xtream-editor.com</website>
+        <email>support@xtream-editor.com</email>
+        <source></source>
+	</extension>
+</addon>
+</addons>
